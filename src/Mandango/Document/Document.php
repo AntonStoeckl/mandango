@@ -42,7 +42,7 @@ abstract class Document extends AbstractDocument
      *
      * @param mixed $id The id.
      *
-     * @return Document The document (fluent interface).
+     * @return \Mandango\Document\Document The document (fluent interface).
      */
     public function setId($id)
     {
@@ -68,7 +68,7 @@ abstract class Document extends AbstractDocument
      *
      * @param Boolean $isNew If the document is new.
      *
-     * @return Document The document (fluent interface).
+     * @return \Mandango\Document\Document The document (fluent interface).
      */
     public function setIsNew($isNew)
     {
@@ -92,7 +92,7 @@ abstract class Document extends AbstractDocument
     /**
      * Refresh the document data from the database.
      *
-     * @return Document The document (fluent interface).
+     * @return \Mandango\Document\Document The document (fluent interface).
      *
      * @throws \LogicException
      *
@@ -114,7 +114,7 @@ abstract class Document extends AbstractDocument
      *
      * @param array $options The options for the batch insert or update operation, it depends on if the document is new or not (optional).
      *
-     * @return Document The document (fluent interface).
+     * @return \Mandango\Document\Document The document (fluent interface).
      *
      * @api
      */

@@ -28,7 +28,7 @@ class PolymorphicReferenceGroup extends PolymorphicGroup
      * @param string                              $discriminatorField The discriminator field.
      * @param \Mandango\Document\AbstractDocument $parent             The parent document.
      * @param string                              $field              The reference field.
-     * @param array|boolean                       $discriminatorMap   The discriminator map if exists, otherwise false.
+     * @param array|Boolean                       $discriminatorMap   The discriminator map if exists, otherwise false.
      *
      * @api
      */
@@ -68,7 +68,7 @@ class PolymorphicReferenceGroup extends PolymorphicGroup
     /**
      * Returns the discriminator map.
      *
-     * @return array|boolean The discriminator map.
+     * @return array|Boolean The discriminator map.
      *
      * @api
      */

@@ -23,7 +23,7 @@ class DataLoader
     /**
      * Constructor.
      *
-     * @param Mandango $mandango The mandango.
+     * @param \Mandango\Mandango $mandango The mandango.
      */
     public function __construct(Mandango $mandango)
     {
@@ -33,7 +33,7 @@ class DataLoader
     /**
      * Set the mandango.
      *
-     * @param Mandango $mandango The mandango.
+     * @param \Mandango\Mandango $mandango The mandango.
      */
     public function setMandango(Mandango $mandango)
     {
@@ -43,7 +43,7 @@ class DataLoader
     /**
      * Returns the Mandango.
      *
-     * @return Mandango The Mandango.
+     * @return \Mandango\Mandango The Mandango.
      */
     public function getMandango()
     {
