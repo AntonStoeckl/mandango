@@ -731,7 +731,7 @@ EOF
                         $inheritableClass = $parentInheritance['class'];
                         $inheritable = $this->configClasses[$parentInheritance['class']]['inheritable'];
                     } else {
-                        $continueSearchingInheritance = true;
+                        $continueSearchingInheritable = true;
                         $parentInheritance = $this->configClasses[$parentInheritance['class']]['inheritance'];
                     }
                 } while ($continueSearchingInheritable);
