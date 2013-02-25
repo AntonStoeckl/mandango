@@ -90,7 +90,7 @@ class LoggableMongoDB extends \MongoDB
             'capped' => $capped,
             'size'   => $size,
             'max'    => $max,
-            'time'   => $time,
+            'time'    => $time,
         ));
 
         return $return;
